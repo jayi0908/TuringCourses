@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/changelog/</loc>
+         <lastmod>2023-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/contributing/</loc>
          <lastmod>2023-07-20</lastmod>
          <changefreq>daily</changefreq>
