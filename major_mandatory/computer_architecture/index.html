@@ -1024,6 +1024,9 @@
 <p>体系结构的任务还是比较轻的，课程内容虽然设计的量比较大，包括<span><span class="heti-spacing"> </span>cache</span>、分支预测、SIMD、多发射、乱序、多核等一系列内容，但是都不是非常深入，大多数重在了解，其中乱序的算法、内存一致性协议达到了定量的程度，其他主要还是定性的程度。<span>lab<span class="heti-spacing"> </span></span>比计组的简单很多，不同于计组的纯手搓，体系的<span class="heti-skip"><span class="heti-spacing"> </span>lab<span class="heti-spacing"> </span></span>都给了代码，只需要做适当的填空即可，很多时候一个下午就可以了，甚至<span><span class="heti-spacing"> </span>lab1</span>、lab3、<span>lab4<span class="heti-spacing"> </span></span>其实计组很多人都做过，可以直接用计组的代码来验收，如果要做<span class="heti-skip"><span class="heti-spacing"> </span>bonus<span class="heti-spacing"> </span></span>那需要自己写代码，没有框架可以用，所以这门课任务量还是比较少的，不会太占时间。虽然<span class="heti-skip"><span class="heti-spacing"> </span>lab<span class="heti-spacing"> </span></span>验收和计算机组成一样有第一次验收不通过<span class="heti-skip"><span class="heti-spacing"> </span>-10%<span class="heti-spacing"> </span></span>的规矩，但是因为助教验收比较宽，并且给了验收代码，只要验收前自己看一下<span class="heti-skip"><span class="heti-spacing"> </span>VGA<span class="heti-spacing"> </span></span>输出对不对就可以了，所以实验分基本可以拿满。期末考可以带<span class="heti-skip"><span class="heti-spacing"> </span>1<span class="heti-spacing"> </span></span>张还是<span class="heti-skip"><span class="heti-spacing"> </span>2<span class="heti-spacing"> </span></span>张<span class="heti-skip"><span class="heti-spacing"> </span>A4<span class="heti-spacing"> </span></span>纸，拿来抄各种策略、协议和算法还是不错的。</p>
 <hr/>
 <style>
+#footer-wrapper {
+    text-wrap: nowrap;
+}
 #footer-wrapper > p {
     display: inline-flex;
     align-items: center;
@@ -1031,8 +1034,9 @@
     margin-top: -10px;
 }
 .contributors {
-    height: 30px;
     min-width: 30px;
+    line-height: 0;
+    text-wrap: wrap;
 }
 .contributors > a {
     margin-right: -8px;

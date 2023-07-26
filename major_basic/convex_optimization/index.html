@@ -1042,6 +1042,9 @@
 <p>可以迷迷糊糊地水过这门课，作业抄抄，代码糊糊，论文水水，也会得到钱徽的宽宥，得到还行的成绩。然而尽管神经网络是非凸的，这门课讲的很多方法也能应用于非凸问题（优化 “基本” 理论），比如梯度下降、<span>Nesterov<span class="heti-spacing"> </span></span>加速梯度下降、镜像下降等。这门课给出的许多分析结论也很有意义，比如一阶局部黑箱优化理论最优的下降速率，还有光滑化的处理， “次梯度” 的引入也让人耳目一新。不过，志不在此的同学建议也就可以随便水水，毕竟要真的学会这门课要花的精力还是不少的，可能以后也用不到。但是想要踏踏实实做研究，想要明白其所以然的同学还是可以认真学一学（比如像大佬们一样放弃钱徽找别的资料大不自多也是一种思路）。</p>
 <hr/>
 <style>
+#footer-wrapper {
+    text-wrap: nowrap;
+}
 #footer-wrapper > p {
     display: inline-flex;
     align-items: center;
@@ -1049,8 +1052,9 @@
     margin-top: -10px;
 }
 .contributors {
-    height: 30px;
     min-width: 30px;
+    line-height: 0;
+    text-wrap: wrap;
 }
 .contributors > a {
     margin-right: -8px;

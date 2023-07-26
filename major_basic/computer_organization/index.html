@@ -1043,6 +1043,9 @@
 <p>因为<span class="heti-skip"><span class="heti-spacing"> </span>Vivado<span class="heti-spacing"> </span></span>套件的综合速度很慢，所以在准备下板前一定进行充分的测试，使用波形来初步查看代码功能是不是正确。更折磨的是明明波形测试没有任何问题，但是下板现象并不符合波形，你可以查看<a href="http://www.ee.ncu.edu.tw/~jfli/vlsidi/lecture/Verilog-2012.pdf"><span class="heti-skip"><span class="heti-spacing"> </span>Synthesizable Verilog<span class="heti-spacing"> </span></span></a>第<span class="heti-skip"><span class="heti-spacing"> </span>17-31<span class="heti-spacing"> </span></span>页并修改自己的代码。</p>
 <hr/>
 <style>
+#footer-wrapper {
+    text-wrap: nowrap;
+}
 #footer-wrapper > p {
     display: inline-flex;
     align-items: center;
@@ -1050,8 +1053,9 @@
     margin-top: -10px;
 }
 .contributors {
-    height: 30px;
     min-width: 30px;
+    line-height: 0;
+    text-wrap: wrap;
 }
 .contributors > a {
     margin-right: -8px;

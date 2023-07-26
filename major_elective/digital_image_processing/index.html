@@ -958,6 +958,9 @@
 <p>一学期大概会有<span class="heti-skip"><span class="heti-spacing"> </span>5~7<span class="heti-spacing"> </span></span>次作业，要使用<span class="heti-skip"><span class="heti-spacing"> </span>C/C++<span class="heti-spacing"> </span></span>编程，不可调用<span class="heti-skip"><span class="heti-spacing"> </span>OpenCV<span class="heti-spacing"> </span></span>等图形处理库。</p>
 <hr/>
 <style>
+#footer-wrapper {
+    text-wrap: nowrap;
+}
 #footer-wrapper > p {
     display: inline-flex;
     align-items: center;
@@ -965,8 +968,9 @@
     margin-top: -10px;
 }
 .contributors {
-    height: 30px;
     min-width: 30px;
+    line-height: 0;
+    text-wrap: wrap;
 }
 .contributors > a {
     margin-right: -8px;

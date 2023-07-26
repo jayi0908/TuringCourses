@@ -887,6 +887,9 @@
 <p>PS：课程综合实践 Ⅰ 是一系列课的集合，里面所有课程共享同一个课程号（可以理解为同一门课的不同教学班教授不同内容，选课系统就是这样处理的），只需选择一个修读即可。课程综合实践 Ⅱ 同理。</p>
 <hr/>
 <style>
+#footer-wrapper {
+    text-wrap: nowrap;
+}
 #footer-wrapper > p {
     display: inline-flex;
     align-items: center;
@@ -894,8 +897,9 @@
     margin-top: -10px;
 }
 .contributors {
-    height: 30px;
     min-width: 30px;
+    line-height: 0;
+    text-wrap: wrap;
 }
 .contributors > a {
     margin-right: -8px;
