@@ -930,18 +930,48 @@
 <div class="badges">
 <span class="badge is-badge">IS 专业必修</span>
 </div>
+<div class="admonition warning">
+<p class="admonition-title">这门课课时和学期安排近几届一直在改动</p>
+</div>
 <h2 id="_2">课程学习内容<a class="headerlink" href="#_2" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
-<p>前半学期主要是<span class="heti-skip"><span class="heti-spacing"> </span>CTF<span class="heti-spacing"> </span></span>中<span class="heti-skip"><span class="heti-spacing"> </span>pwn<span class="heti-spacing"> </span></span>方向的问题，例如缓冲区溢出、ROP、格式化字符串漏洞、堆攻击以及其他一些杂项等。后半学期是一些其他高级专题，例如简单的静态和动态分析、CFI、<span>SFI<span class="heti-spacing"> </span></span>以及智能合约的内容。前半学期内容以及程序分析的内容与作业有关，后面的内容都是高级专题简单介绍。</p>
+<p>主要包括两个方面：</p>
+<ul>
+<li>常见漏洞的攻击与防御：其实就是<span class="heti-skip"><span class="heti-spacing"> </span>CTF<span class="heti-spacing"> </span></span>中<span class="heti-skip"><span class="heti-spacing"> </span>pwn<span class="heti-spacing"> </span></span>方向的基础，包括缓冲区溢出、ROP、格式化字符串漏洞、堆等</li>
+<li>程序分析：一些相对“高级”的专题，包括简单的静态和动态分析、CFI、<span>SFI<span class="heti-spacing"> </span></span>以及智能合约的内容</li>
+</ul>
+<p><span>2021<span class="heti-spacing"> </span></span>级这门课从一个长学期改为了半个学期（可能后面还会改回来），所以讲的就比较匆忙。前半部分是重点，<span>lab<span class="heti-spacing"> </span></span>也大多围绕这个部分，后半部分的内容因为时间关系没讲太多，<span>lab<span class="heti-spacing"> </span></span>也因为时间关系改为了选做的<span><span class="heti-spacing"> </span>bonus</span>。</p>
 <h3 id="_3">预修要求<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
 <ul>
 <li>汇编语言（x86）</li>
 </ul>
 <h2 id="_4">任课教师<a class="headerlink" href="#_4" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
-<p>周亚金老师。因为不点名以及后半学期的内容与作业无关，到课人数也很少。分数主要由助教决定，只要做完了且报告按要求说清楚都能拿到接近<span class="heti-skip"><span class="heti-spacing"> </span>100<span class="heti-spacing"> </span></span>或者<span class="heti-skip"><span class="heti-spacing"> </span>100<span class="heti-spacing"> </span></span>的成绩，并且答疑也很负责。</p>
+<p>周亚金老师。因为不点名以及后半部分的内容与作业无关，到课人数也很少。分数主要由助教决定，只要做完了且报告按要求说清楚都能拿到接近<span class="heti-skip"><span class="heti-spacing"> </span>100<span class="heti-spacing"> </span></span>或者<span class="heti-skip"><span class="heti-spacing"> </span>100<span class="heti-spacing"> </span></span>的成绩，并且答疑也很负责。</p>
 <h2 id="_5">课程教材<a class="headerlink" href="#_5" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
 <p>无指定教材，老师课前会发布<span><span class="heti-spacing"> </span>PPT</span>。<span>PPT<span class="heti-spacing"> </span></span>上有部分作业的解决思路，当然实验指导中有更偏向于实战的指导。当然仍有部分问题需要自己探索新知识来解决。非常推荐大家看<a href="https://ctf-wiki.org/pwn/linux/user-mode/environment/"><span><span class="heti-spacing"> </span>CTF Wiki</span></a>，上面有很多问题的解决思路。也可以看<span class="heti-skip"><span class="heti-spacing"> </span>B<span class="heti-spacing"> </span></span>站或者<span class="heti-skip"><span class="heti-spacing"> </span>youtube<span class="heti-spacing"> </span></span>台大的<span class="heti-skip"><span class="heti-spacing"> </span>pwn<span class="heti-spacing"> </span></span>课等。</p>
 <h2 id="_6">分数构成<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"/><input id="__tabbed_1_2" name="__tabbed_1" type="radio"/><div class="tabbed-labels"><label for="__tabbed_1_1"><span>2021<span class="heti-spacing"> </span></span>级</label><label for="__tabbed_1_2"><span class="heti-skip"><span class="heti-spacing"> </span>2020<span class="heti-spacing"> </span></span>级</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>日常<span><span class="heti-spacing"> </span>lab</span>（<span>60<span class="heti-spacing"> </span></span>分）<ul>
+<li>lab 1：BOF、ROP、FSB（<span>30<span class="heti-spacing"> </span></span>分）</li>
+<li>lab 2：堆利用（<span>30<span class="heti-spacing"> </span></span>分）</li>
+<li>lab 3：动态分析（<span>20<span class="heti-spacing"> </span></span>分<span><span class="heti-spacing"> </span>bonus</span>）</li>
+<li>lab 4：软件安全机制探究（<span>20<span class="heti-spacing"> </span></span>分<span><span class="heti-spacing"> </span>bonus</span>）</li>
+</ul>
+</li>
+<li>final lab（<span>40<span class="heti-spacing"> </span></span>分）<ul>
+<li>就是<span class="heti-skip"><span class="heti-spacing"> </span>lab 1<span class="heti-spacing"> </span></span>的范围，两道题，做出来就是满分</li>
+</ul>
+</li>
+</ul>
+<p><span>lab 1/2<span class="heti-spacing"> </span></span>以及<span class="heti-skip"><span class="heti-spacing"> </span>final<span class="heti-spacing"> </span></span>都设置了一道<span class="heti-skip"><span class="heti-spacing"> </span>CTF<span class="heti-spacing"> </span></span>比赛中的<span class="heti-skip"><span class="heti-spacing"> </span>pwn<span class="heti-spacing"> </span></span>题作为<span><span class="heti-spacing"> </span>bonus</span>，可见<span class="heti-skip"><span class="heti-spacing"> </span>bonus<span class="heti-spacing"> </span></span>分量非常足（<del>算上<span class="heti-skip"><span class="heti-spacing"> </span>bonus<span class="heti-spacing"> </span></span>的满分甚至达到了<span class="heti-skip"><span class="heti-spacing"> </span>170<span class="heti-spacing"> </span></span>分</del><heti-adjacent class="heti-adjacent-half">）</heti-adjacent>。但整门课只有半个学期，而且<span class="heti-skip"><span class="heti-spacing"> </span>lab 1<span class="heti-spacing"> </span></span>的内容比较多，所以对于没有<span class="heti-skip"><span class="heti-spacing"> </span>CTF pwn<span class="heti-spacing"> </span></span>基础的同学来说也不算太轻松。但助教都是很<span class="heti-skip"><span class="heti-spacing"> </span>nice<span class="heti-spacing"> </span></span>的，分数也大都不会太差。</p>
+</div>
+<div class="tabbed-block">
 <p>平时四次作业<span><span class="heti-spacing"> </span>60%</span>，final 40%。第一次作业是缓冲区溢出，第二次作业有关<span><span class="heti-spacing"> </span>ROP</span>，第三次是格式化字符串漏洞，第四次是动态分析、静态分析二选一（使用软件进行操作回答思考题）。<span>18<span class="heti-spacing"> </span></span>级开课第四次作业是堆利用，但是因为太难完成情况差因此<span class="heti-skip"><span class="heti-spacing"> </span>19<span class="heti-spacing"> </span></span>和<span class="heti-skip"><span class="heti-spacing"> </span>20<span class="heti-spacing"> </span></span>有更改。<span>Final<span class="heti-spacing"> </span></span>是前面三次作业对应的专题每个专题出一题完成。去年同学们其他课程任务太重因此期末第三题改为<span><span class="heti-spacing"> </span>bonus</span>。每次作业都有比较基础的和最后偏难的问题，然后也设置了<span class="heti-skip"><span class="heti-spacing"> </span>bonus<span class="heti-spacing"> </span></span>补分。</p>
+</div>
+</div>
+</div>
 <p>这门课还是有一定的挑战性，特别对于刚上手<span class="heti-skip"><span class="heti-spacing"> </span>CTF<span class="heti-spacing"> </span></span>问题的同学可能不太熟悉一些工具的使用（有不计分的<span class="heti-skip"><span class="heti-spacing"> </span>Lab 0<span class="heti-spacing"> </span></span>供大家熟悉操作），并且部分作业题有难度，但是通过搜集资料等方式独立解决问题，不仅可以收获满意结果，也能体会到这一方向独特的魅力（纵然可能被打击到失去兴趣）。</p>
 <hr/>
 <style>
@@ -972,7 +1002,7 @@
 }
 </style>
 <div id="footer-wrapper">
-<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2023-01-23  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/TonyCrane" target="_blank" title="TonyCrane"><img alt="TonyCrane" src="https://avatars.githubusercontent.com/u/44120331"/></a><a href="https://github.com/yhwu-is" target="_blank" title="yhwu-is"><img alt="yhwu-is" src="https://avatars.githubusercontent.com/u/80104150"/></a><a href="https://github.com/RyanFcr" target="_blank" title="RyanFcr"><img alt="RyanFcr" src="https://avatars.githubusercontent.com/u/97524892"/></a></span></p>
+<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2023-08-09  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/TonyCrane" target="_blank" title="TonyCrane"><img alt="TonyCrane" src="https://avatars.githubusercontent.com/u/44120331"/></a><a href="https://github.com/yhwu-is" target="_blank" title="yhwu-is"><img alt="yhwu-is" src="https://avatars.githubusercontent.com/u/80104150"/></a><a href="https://github.com/RyanFcr" target="_blank" title="RyanFcr"><img alt="RyanFcr" src="https://avatars.githubusercontent.com/u/97524892"/></a></span></p>
 </div>
 <script async="" crossorigin="anonymous" data-category="General" data-category-id="DIC_kwDOIw_0vs4CTjmC" data-emit-metadata="0" data-input-position="bottom" data-lang="zh-CN" data-mapping="pathname" data-reactions-enabled="1" data-repo="ZJU-Turing/TuringCourses" data-repo-id="R_kgDOIw_0vg" data-strict="1" data-theme="light" src="https://giscus.app/client.js">
 </script>
