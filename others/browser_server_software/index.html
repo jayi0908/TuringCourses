@@ -4,33 +4,33 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="图灵班学习指南" name="description"/>
-<link href="https://ZJU-Turing.github.io/TuringCourses/contributing/" rel="canonical"/>
-<link href=".." rel="prev"/>
-<link href="../template/" rel="next"/>
-<link href="../images/icon.png" rel="icon"/>
+<link href="https://ZJU-Turing.github.io/TuringCourses/others/browser_server_software/" rel="canonical"/>
+<link href="../finance/" rel="prev"/>
+<link href="../../readings/" rel="next"/>
+<link href="../../images/icon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.4" name="generator"/>
-<title>贡献指南 - 图灵班学习指南</title>
-<link href="../assets/stylesheets/main.9c788c91.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
+<title>B/S 体系软件设计 - 图灵班学习指南</title>
+<link href="../../assets/stylesheets/main.9c788c91.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"JetBrains Mono"}</style>
-<link href="../css/heti.css" rel="stylesheet"/>
+<link href="../../css/heti.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300i,400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
-<link href="../css/tasklist.css" rel="stylesheet"/>
-<link href="../css/card.css" rel="stylesheet"/>
-<link href="../css/custom.css" rel="stylesheet"/>
-<link href="../css/counter.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../css/tasklist.css" rel="stylesheet"/>
+<link href="../../css/card.css" rel="stylesheet"/>
+<link href="../../css/custom.css" rel="stylesheet"/>
+<link href="../../css/counter.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 </head>
 <body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
-<script src="../js/scheme.js" type="text/javascript"></script>
+<script src="../../js/scheme.js" type="text/javascript"></script>
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#_1">
+<a class="md-skip" href="#bs">
             跳转至
           </a>
 </div>
@@ -38,7 +38,7 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="页眉" class="md-header__inner md-grid">
-<a aria-label="图灵班学习指南" class="md-header__button md-logo" data-md-component="logo" href=".." title="图灵班学习指南">
+<a aria-label="图灵班学习指南" class="md-header__button md-logo" data-md-component="logo" href="../.." title="图灵班学习指南">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4h-2M3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3m2-2v2h2V5H5m0 14h2v-2H5v2m0-6h2v-2H5v2Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -54,7 +54,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              贡献指南
+              B/S 体系软件设计
             
           </span>
 </div>
@@ -123,57 +123,57 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="..">
+<a class="md-tabs__link" href="../..">
         主页
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../political/">
+<a class="md-tabs__link" href="../../political/">
         思政军体课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../general/">
+<a class="md-tabs__link" href="../../general/">
         通识选修课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../math_phys/">
+<a class="md-tabs__link" href="../../math_phys/">
         数理基础课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../major_basic/">
+<a class="md-tabs__link" href="../../major_basic/">
         专业基础课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../major_mandatory/">
+<a class="md-tabs__link" href="../../major_mandatory/">
         专业必修课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../major_module/">
+<a class="md-tabs__link" href="../../major_module/">
         专业模块课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../major_elective/">
+<a class="md-tabs__link" href="../../major_elective/">
         专业选修课
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../short_term/">
+<a class="md-tabs__link" href="../../short_term/">
         短学期课程
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../others/">
+<a class="md-tabs__link md-tabs__link--active" href="../">
         跨专业课程
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../readings/">
+<a class="md-tabs__link" href="../../readings/">
         书评专区
       </a>
 </li>
@@ -187,7 +187,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="图灵班学习指南" class="md-nav__button md-logo" data-md-component="logo" href=".." title="图灵班学习指南">
+<a aria-label="图灵班学习指南" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="图灵班学习指南">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4h-2M3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7H3m2-2v2h2V5H5m0 14h2v-2H5v2m0-6h2v-2H5v2Z"></path></svg>
 </a>
     图灵班学习指南
@@ -203,10 +203,10 @@
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="..">主页</a>
+<a href="../..">主页</a>
 <label for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -217,79 +217,18 @@
           主页
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          贡献指南
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../contributing/">
         贡献指南
       </a>
-<nav aria-label="目录" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_2">
-    本地构建
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_3">
-    贡献内容
-  </a>
-<nav aria-label="贡献内容" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_4">
-    网站结构
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_5">
-    贡献守则
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_6">
-    贡献方式
-  </a>
-<nav aria-label="贡献方式" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#pull-request">
-    Pull Request（推荐）
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
-    直接提交
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
-    问题反馈
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../template/">
+<a class="md-nav__link" href="../../template/">
         课程页面模板
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../changelog/">
+<a class="md-nav__link" href="../../changelog/">
         更新历史
       </a>
 </li>
@@ -299,7 +238,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../political/">思政军体课</a>
+<a href="../../political/">思政军体课</a>
 <label for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -311,42 +250,42 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/situation_policy1/">
+<a class="md-nav__link" href="../../political/situation_policy1/">
         形势与政策 Ⅰ
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/morality_law/">
+<a class="md-nav__link" href="../../political/morality_law/">
         思想道德与法治
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/modern_history/">
+<a class="md-nav__link" href="../../political/modern_history/">
         中国近现代史纲要（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/marxism_basic/">
+<a class="md-nav__link" href="../../political/marxism_basic/">
         马克思主义基本原理（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/mao_thought/">
+<a class="md-nav__link" href="../../political/mao_thought/">
         毛泽东思想和中国特色社会主义理论体系概论（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/xi_thought/">
+<a class="md-nav__link" href="../../political/xi_thought/">
         习近平新时代中国特色社会主义思想概论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/situation_policy2/">
+<a class="md-nav__link" href="../../political/situation_policy2/">
         形势与政策 Ⅱ
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../political/military_theory/">
+<a class="md-nav__link" href="../../political/military_theory/">
         军事理论
       </a>
 </li>
@@ -356,7 +295,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../general/">通识选修课</a>
+<a href="../../general/">通识选修课</a>
 <label for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -368,17 +307,17 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../general/core/">
+<a class="md-nav__link" href="../../general/core/">
         通识核心课
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../general/elective/">
+<a class="md-nav__link" href="../../general/elective/">
         通识选修课
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../general/others/">
+<a class="md-nav__link" href="../../general/others/">
         其他选修课
       </a>
 </li>
@@ -388,7 +327,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../math_phys/">数理基础课</a>
+<a href="../../math_phys/">数理基础课</a>
 <label for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -400,47 +339,47 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/linear_algebra1/">
+<a class="md-nav__link" href="../../math_phys/linear_algebra1/">
         线性代数 Ⅰ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/linear_algebra2/">
+<a class="md-nav__link" href="../../math_phys/linear_algebra2/">
         线性代数 Ⅱ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/math_analysis1/">
+<a class="md-nav__link" href="../../math_phys/math_analysis1/">
         数学分析（甲）Ⅰ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/math_analysis2/">
+<a class="md-nav__link" href="../../math_phys/math_analysis2/">
         数学分析（甲）Ⅱ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/physics1/">
+<a class="md-nav__link" href="../../math_phys/physics1/">
         普通物理学 Ⅰ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/physics2/">
+<a class="md-nav__link" href="../../math_phys/physics2/">
         普通物理学 Ⅱ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/physics_experiment1/">
+<a class="md-nav__link" href="../../math_phys/physics_experiment1/">
         普通物理学实验 Ⅰ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/physics_experiment2/">
+<a class="md-nav__link" href="../../math_phys/physics_experiment2/">
         普通物理学实验 Ⅱ（H）
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../math_phys/probability/">
+<a class="md-nav__link" href="../../math_phys/probability/">
         概率论（H）
       </a>
 </li>
@@ -450,7 +389,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../major_basic/">专业基础课</a>
+<a href="../../major_basic/">专业基础课</a>
 <label for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -462,77 +401,77 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/programming/">
+<a class="md-nav__link" href="../../major_basic/programming/">
         程序设计与算法基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/cyberspace_security/">
+<a class="md-nav__link" href="../../major_basic/cyberspace_security/">
         网络空间安全导论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/discrete_math/">
+<a class="md-nav__link" href="../../major_basic/discrete_math/">
         离散数学理论基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/ai_basic/">
+<a class="md-nav__link" href="../../major_basic/ai_basic/">
         人工智能基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/data_structure/">
+<a class="md-nav__link" href="../../major_basic/data_structure/">
         数据结构基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/advanced_data_structure/">
+<a class="md-nav__link" href="../../major_basic/advanced_data_structure/">
         高级数据结构与算法分析
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/logic_design/">
+<a class="md-nav__link" href="../../major_basic/logic_design/">
         计算机逻辑设计基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/computer_organization/">
+<a class="md-nav__link" href="../../major_basic/computer_organization/">
         计算机组成与设计
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/object_oriented_programming/">
+<a class="md-nav__link" href="../../major_basic/object_oriented_programming/">
         面向对象程序设计
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/theory_of_computation/">
+<a class="md-nav__link" href="../../major_basic/theory_of_computation/">
         理论计算机科学导引
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/convex_optimization/">
+<a class="md-nav__link" href="../../major_basic/convex_optimization/">
         优化基本理论与方法
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/operating_system/">
+<a class="md-nav__link" href="../../major_basic/operating_system/">
         操作系统原理与实践
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/computer_system1/">
+<a class="md-nav__link" href="../../major_basic/computer_system1/">
         计算机系统 Ⅰ
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/computer_system2/">
+<a class="md-nav__link" href="../../major_basic/computer_system2/">
         计算机系统 Ⅱ
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_basic/computer_system3/">
+<a class="md-nav__link" href="../../major_basic/computer_system3/">
         计算机系统 Ⅲ
       </a>
 </li>
@@ -542,7 +481,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../major_mandatory/">专业必修课</a>
+<a href="../../major_mandatory/">专业必修课</a>
 <label for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -554,107 +493,107 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/database/">
+<a class="md-nav__link" href="../../major_mandatory/database/">
         数据库系统
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/computer_networks/">
+<a class="md-nav__link" href="../../major_mandatory/computer_networks/">
         计算机网络
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/computer_architecture/">
+<a class="md-nav__link" href="../../major_mandatory/computer_architecture/">
         计算机体系结构
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/software_engineering/">
+<a class="md-nav__link" href="../../major_mandatory/software_engineering/">
         软件工程
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/compilers_principles/">
+<a class="md-nav__link" href="../../major_mandatory/compilers_principles/">
         编译原理
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/cognitive_neuroscience/">
+<a class="md-nav__link" href="../../major_mandatory/cognitive_neuroscience/">
         认知神经科学
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/machine_learning/">
+<a class="md-nav__link" href="../../major_mandatory/machine_learning/">
         机器学习
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/ai_ethics_security/">
+<a class="md-nav__link" href="../../major_mandatory/ai_ethics_security/">
         人工智能伦理与安全
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/ai_practice/">
+<a class="md-nav__link" href="../../major_mandatory/ai_practice/">
         人工智能实践
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/computer_vision/">
+<a class="md-nav__link" href="../../major_mandatory/computer_vision/">
         计算机视觉导论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/design_cognition/">
+<a class="md-nav__link" href="../../major_mandatory/design_cognition/">
         设计认知与设计智能
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/ai_chips_systems/">
+<a class="md-nav__link" href="../../major_mandatory/ai_chips_systems/">
         人工智能芯片与系统
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/natural_language_processing/">
+<a class="md-nav__link" href="../../major_mandatory/natural_language_processing/">
         自然语言处理导论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/assemble/">
+<a class="md-nav__link" href="../../major_mandatory/assemble/">
         汇编语言
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/cryptography/">
+<a class="md-nav__link" href="../../major_mandatory/cryptography/">
         密码学
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/data_security/">
+<a class="md-nav__link" href="../../major_mandatory/data_security/">
         数据安全与隐私保护
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/software_security/">
+<a class="md-nav__link" href="../../major_mandatory/software_security/">
         软件安全原理和实践
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/network_security/">
+<a class="md-nav__link" href="../../major_mandatory/network_security/">
         网络安全原理与实践
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/ai_security/">
+<a class="md-nav__link" href="../../major_mandatory/ai_security/">
         人工智能安全
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/wireless_iot_security/">
+<a class="md-nav__link" href="../../major_mandatory/wireless_iot_security/">
         无线与物理网安全基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_mandatory/system_security/">
+<a class="md-nav__link" href="../../major_mandatory/system_security/">
         系统安全原理和实践
       </a>
 </li>
@@ -664,7 +603,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" id="__nav_7" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../major_module/">专业模块课</a>
+<a href="../../major_module/">专业模块课</a>
 <label for="__nav_7">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -676,57 +615,57 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/numerical_analysis/">
+<a class="md-nav__link" href="../../major_module/numerical_analysis/">
         数值分析
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/applied_operations_research/">
+<a class="md-nav__link" href="../../major_module/applied_operations_research/">
         应用运筹学基础
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/principle_of_programming_languages/">
+<a class="md-nav__link" href="../../major_module/principle_of_programming_languages/">
         编程语言原理
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/history_of_cs_ideas/">
+<a class="md-nav__link" href="../../major_module/history_of_cs_ideas/">
         计算机科学思想史
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/data_mining/">
+<a class="md-nav__link" href="../../major_module/data_mining/">
         数据挖掘导论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/assembly_interface/">
+<a class="md-nav__link" href="../../major_module/assembly_interface/">
         汇编与接口
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/embedded_system/">
+<a class="md-nav__link" href="../../major_module/embedded_system/">
         嵌入式系统
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/parallel_computing/">
+<a class="md-nav__link" href="../../major_module/parallel_computing/">
         并行计算与多核编程
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/system_comprehensive_practice/">
+<a class="md-nav__link" href="../../major_module/system_comprehensive_practice/">
         计算机系统综合实现
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/distributed_computing/">
+<a class="md-nav__link" href="../../major_module/distributed_computing/">
         分布式计算
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_module/big_data_storage/">
+<a class="md-nav__link" href="../../major_module/big_data_storage/">
         大数据存储技术
       </a>
 </li>
@@ -736,7 +675,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" id="__nav_8" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../major_elective/">专业选修课</a>
+<a href="../../major_elective/">专业选修课</a>
 <label for="__nav_8">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -748,27 +687,27 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_elective/technology_communication/">
+<a class="md-nav__link" href="../../major_elective/technology_communication/">
         技术沟通
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_elective/digital_image_processing/">
+<a class="md-nav__link" href="../../major_elective/digital_image_processing/">
         图像信息处理
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_elective/brain_inspired_ai/">
+<a class="md-nav__link" href="../../major_elective/brain_inspired_ai/">
         脑启发人工智能导论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_elective/ai_logic/">
+<a class="md-nav__link" href="../../major_elective/ai_logic/">
         人工智能逻辑
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../major_elective/computational_photography/">
+<a class="md-nav__link" href="../../major_elective/computational_photography/">
         计算摄影学
       </a>
 </li>
@@ -778,7 +717,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" id="__nav_9" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../short_term/">短学期课程</a>
+<a href="../../short_term/">短学期课程</a>
 <label for="__nav_9">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -792,7 +731,7 @@
 <li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" id="__nav_9_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../short_term/">固定课程</a>
+<a href="../../short_term/">固定课程</a>
 <label for="__nav_9_2">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -804,12 +743,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/ics/">
+<a class="md-nav__link" href="../../short_term/ics/">
         计算机系统概论
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/engineering_practice/">
+<a class="md-nav__link" href="../../short_term/engineering_practice/">
         工程实践
       </a>
 </li>
@@ -819,7 +758,7 @@
 <li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_3" id="__nav_9_3" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../short_term/">课程综合实践 Ⅰ</a>
+<a href="../../short_term/">课程综合实践 Ⅰ</a>
 <label for="__nav_9_3">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -831,17 +770,17 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/hpc/">
+<a class="md-nav__link" href="../../short_term/hpc/">
         超算实训
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/acm/">
+<a class="md-nav__link" href="../../short_term/acm/">
         算法竞赛集训
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/ctf/">
+<a class="md-nav__link" href="../../short_term/ctf/">
         安全攻防实践
       </a>
 </li>
@@ -851,7 +790,7 @@
 <li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_4" id="__nav_9_4" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../short_term/">课程综合实践 Ⅱ</a>
+<a href="../../short_term/">课程综合实践 Ⅱ</a>
 <label for="__nav_9_4">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -863,12 +802,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/cpp_project/">
+<a class="md-nav__link" href="../../short_term/cpp_project/">
         C++ 项目管理及工程实践
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../short_term/rust/">
+<a class="md-nav__link" href="../../short_term/rust/">
         Rust 开发实训
       </a>
 </li>
@@ -878,10 +817,10 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" id="__nav_10" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" id="__nav_10" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../others/">跨专业课程</a>
+<a href="../">跨专业课程</a>
 <label for="__nav_10">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -893,39 +832,86 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/ode/">
+<a class="md-nav__link" href="../ode/">
         常微分方程
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/numerical_linear_algebra/">
+<a class="md-nav__link" href="../numerical_linear_algebra/">
         数值代数
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/data_modeling_and_analysis/">
+<a class="md-nav__link" href="../data_modeling_and_analysis/">
         数据建模与分析
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/abstract_algebra/">
+<a class="md-nav__link" href="../abstract_algebra/">
         抽象代数
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/economics/">
+<a class="md-nav__link" href="../economics/">
         经济学类课程集
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../others/finance/">
+<a class="md-nav__link" href="../finance/">
         金融学类课程集
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../others/browser_server_software/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          B/S 体系软件设计
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         B/S 体系软件设计
       </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    课程学习内容
+  </a>
+<nav aria-label="课程学习内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    先修要求
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    任课教师
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    课程教材
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+    分数构成
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    课程学习建议
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -933,7 +919,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" id="__nav_11" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../readings/">书评专区</a>
+<a href="../../readings/">书评专区</a>
 </div>
 <nav aria-label="书评专区" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_11">
@@ -959,51 +945,37 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_2">
-    本地构建
+<a class="md-nav__link" href="#_1">
+    课程学习内容
   </a>
+<nav aria-label="课程学习内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    先修要求
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_3">
-    贡献内容
+    任课教师
   </a>
-<nav aria-label="贡献内容" class="md-nav">
-<ul class="md-nav__list">
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_4">
-    网站结构
+    课程教材
   </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_5">
-    贡献守则
+    分数构成
   </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_6">
-    贡献方式
-  </a>
-<nav aria-label="贡献方式" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#pull-request">
-    Pull Request（推荐）
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_7">
-    直接提交
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#_8">
-    问题反馈
+    课程学习建议
   </a>
 </li>
 </ul>
@@ -1013,100 +985,49 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ZJU-Turing/TuringCourses/tree/master/docs/contributing.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/ZJU-Turing/TuringCourses/tree/master/docs/others/browser_server_software/index.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1 id="_1">贡献指南<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
-<p>本网站欢迎一切贡献 🎉<br/>
-不过课程内容只面向浙大图灵班范畴，外来贡献同样欢迎，但注意不要添加无关课程内容。</p>
-<p>如果你想要为本网站进行贡献，以下是一些指南。</p>
-<h2 id="_2">本地构建<a class="headerlink" href="#_2" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
-<ol>
-<li>克隆本项目<span><span class="heti-spacing"> </span>repo</span>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ZJU-Turing/TuringCourses.git
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>TuringCourses
-</code></pre></div></li>
-<li>安装<span class="heti-skip"><span class="heti-spacing"> </span>python<span class="heti-spacing"> </span></span>依赖（<span>mkdocs<span class="heti-spacing"> </span></span>以及<span><span class="heti-spacing"> </span>material</span>）
-    <div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
-</code></pre></div></li>
-<li>安装本文档专用插件
-    <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ZJU-Turing/TuringPlugins.git
-<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>TuringPlugins
-<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
-<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>..
-</code></pre></div></li>
-<li>启动<span class="heti-skip"><span class="heti-spacing"> </span>mkdocs<span class="heti-spacing"> </span></span>本地服务
-    <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>$<span class="w"> </span>mkdocs<span class="w"> </span>serve
-</code></pre></div><ul>
-<li>之后即可通过浏览器访问<span class="heti-skip"><span class="heti-spacing"> </span>localhost:8000<span class="heti-spacing"> </span></span>预览网站</li>
-</ul>
-</li>
-</ol>
-<h2 id="_3">贡献内容<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
-<h3 id="_4">网站结构<a class="headerlink" href="#_4" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
-<p>目前本站内容根据课程类别进行分组，然后在根据课程单独分页，每页内记录关于该课程的介绍、学习资料、学习技巧等。</p>
-<p>在源代码层面，使用<span class="heti-skip"><span class="heti-spacing"> </span>markdown<span class="heti-spacing"> </span></span>进行编写，每一门课程是一个文件夹，路径和网站链接路径保持一致，文件夹内 <code>index.md</code> 为该门课程的主页，文件夹内可以存放该课程的图片素材、学习资料等等。整体结构在 <code>mkdocs.yml</code> 文件中的 <code>nav</code> 部分定义。</p>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>.
-<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>├── docs
-<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>│   ├── contributing.md     # 本页
-<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a>│   ├── template.md         # 课程页面模板
-<a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a>│   ├── index.md            # 主页
-<a href="#__codelineno-4-6" id="__codelineno-4-6" name="__codelineno-4-6"></a>│   ├── css/                # 本站用到的所有 css 样式
-<a href="#__codelineno-4-7" id="__codelineno-4-7" name="__codelineno-4-7"></a>│   ├── general/            # 通识选修课
-<a href="#__codelineno-4-8" id="__codelineno-4-8" name="__codelineno-4-8"></a>│   ├── images/             # 仅用来保存网站图标
-<a href="#__codelineno-4-9" id="__codelineno-4-9" name="__codelineno-4-9"></a>│   ├── js/                 # 本站用到的所有 js 脚本
-<a href="#__codelineno-4-10" id="__codelineno-4-10" name="__codelineno-4-10"></a>│   ├── major_basic/        # 专业基础课
-<a href="#__codelineno-4-11" id="__codelineno-4-11" name="__codelineno-4-11"></a>│   ├── major_elective/     # 专业选修课
-<a href="#__codelineno-4-12" id="__codelineno-4-12" name="__codelineno-4-12"></a>│   ├── major_mandatory/    # 专业必修课
-<a href="#__codelineno-4-13" id="__codelineno-4-13" name="__codelineno-4-13"></a>│   ├── math_phys/          # 数理基础课
-<a href="#__codelineno-4-14" id="__codelineno-4-14" name="__codelineno-4-14"></a>│   ├── others/             # 其他课程
-<a href="#__codelineno-4-15" id="__codelineno-4-15" name="__codelineno-4-15"></a>│   ├── political/          # 思政军体课
-<a href="#__codelineno-4-16" id="__codelineno-4-16" name="__codelineno-4-16"></a>│   ├── readings/           # 书评专区
-<a href="#__codelineno-4-17" id="__codelineno-4-17" name="__codelineno-4-17"></a>│   └── short_term/         # 短学期课程
-<a href="#__codelineno-4-18" id="__codelineno-4-18" name="__codelineno-4-18"></a>├── mkdocs.yml          # mkdocs 站点设置
-<a href="#__codelineno-4-19" id="__codelineno-4-19" name="__codelineno-4-19"></a>├── overrides/          # mkdocs-material 个性主题设置
-<a href="#__codelineno-4-20" id="__codelineno-4-20" name="__codelineno-4-20"></a>└── requirements.txt    # 本站构建所需全部 python 依赖
-</code></pre></div>
-<h3 id="_5">贡献守则<a class="headerlink" href="#_5" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
-<p>你可以对本网站进行任何贡献，包括完善、更新页面内容，添加新页面，样式修改等等。</p>
-<p>如果是添加新页面的话，请记得同时更新好 <code>mkdocs.yml</code> 的 <code>nav</code> 部分，使新页面能够正常通过站点目录被访问。</p>
-<p>对于页面内容：</p>
-<ul>
-<li>对于课程请进行客观的评价，尽量不要带有主观色彩（比较主观的内容可以在页面下评论）</li>
-<li>对于外部资源，请尽量插入链接，不要将文件传入本<span><span class="heti-spacing"> </span>repo</span></li>
-<li>尽量不要上传有版权的文件，例如课件等</li>
-<li>对于自己的笔记、复习提纲等材料：<ul>
-<li>如果有自己的网站，推荐放在自己的网站并在此插入链接</li>
-<li>也可以将文件上传到对应课程文件夹中，并插入相对链接，例如<a href="math_phys/math_analysis1/">数分一</a>页面中的历年卷</li>
-</ul>
-</li>
-<li>尽量规范编写<span><span class="heti-spacing"> </span>markdown</span>，避免出现格式错误<ul>
-<li>如果你实在搞不定，不要担心，尽管上传，我们发现后会及时进行修改</li>
-</ul>
-</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>针对还完全没有内容的空页面，我们提供了一个<a href="../template/">模板</a>，可以在模板的<a href="https://github.com/ZJU-Turing/TuringCourses/blob/master/docs/template.md?plain=1">源码</a>基础上修改使用。</p>
+<div class="admonition warning">
+<p class="admonition-title">1707148668</p>
 </div>
-<h3 id="_6">贡献方式<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
-<h4 id="pull-request">Pull Request（推荐）<a class="headerlink" href="#pull-request" title="Permanent link">¶</a></h4>
-<p>推荐通过<span><span class="heti-spacing"> </span>PR</span>（即<span><span class="heti-spacing"> </span>Pull Request</span>）的形式来进行贡献，具体流程：</p>
-<ul>
-<li>在<span class="heti-skip"><span class="heti-spacing"> </span>GitHub<span class="heti-spacing"> </span></span>网页端点击右上角的<span><span class="heti-spacing"> </span>fork</span>，将本仓库<span class="heti-skip"><span class="heti-spacing"> </span>fork<span class="heti-spacing"> </span></span>到自己的账号下</li>
-<li>在自己账号的对应仓库中进行修改</li>
-<li>修改完成后，点击<span><span class="heti-spacing"> </span>New pull request</span>，提交一个<span><span class="heti-spacing"> </span>PR</span></li>
-<li>等待其他人审核、修改，然后合并到本<span class="heti-skip"><span class="heti-spacing"> </span>repo<span class="heti-spacing"> </span></span>中</li>
-</ul>
-<h4 id="_7">直接提交<a class="headerlink" href="#_7" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h4>
-<p>对于在<span class="heti-skip"><span class="heti-spacing"> </span>Organization<span class="heti-spacing"> </span></span>中的同学，如果实在觉得<span class="heti-skip"><span class="heti-spacing"> </span>PR<span class="heti-spacing"> </span></span>过程有些复杂，也可以直接修改、提交到本仓库中（可以在线修改，也可以<span class="heti-skip"><span class="heti-spacing"> </span>clone<span class="heti-spacing"> </span></span>到本地修改然后<span><span class="heti-spacing"> </span>commit</span>、push）。如果在提交中存在问题，我们后续会及时进行修改<heti-adjacent class="heti-adjacent-half">。</heti-adjacent>（不过还是不推荐这种方式）</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>可以直接通过页面标题右侧的编辑按钮 <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg></span> 定位到对应的<span class="heti-skip"><span class="heti-spacing"> </span>GitHub<span class="heti-spacing"> </span></span>页面进行修改。</p>
+<h1 id="bs"><span>B/S<span class="heti-spacing"> </span></span>体系软件设计<a class="headerlink" href="#bs" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>非图灵计科专业的专业模块课（计算机软件技术分类），以及软件工程专业的专业选修课（开发与平台技术）。</p>
+<p>没有出现在图灵任何一个专业中，可以作为跨专业课程。</p>
 </div>
-<h2 id="_8">问题反馈<a class="headerlink" href="#_8" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
-<p>如果你发现本网站内容存在问题，请优先在对应页面下方评论区中进行评论，或者在<span class="heti-skip"><span class="heti-spacing"> </span>repo<span class="heti-spacing"> </span></span>中开一个<span class="heti-skip"><span class="heti-spacing"> </span>issue<span class="heti-spacing"> </span></span>来提出问题。</p>
-<p>如果你发现本网站存在侵犯您权益的内容，请通过<span class="heti-skip"><span class="heti-spacing"> </span>issue<span class="heti-spacing"> </span></span>联系我们，我们会进行删除。</p>
+<h2 id="_1">课程学习内容<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p><span>B/S<span class="heti-spacing"> </span></span>指的是<span class="heti-skip"><span class="heti-spacing"> </span>Browser<span class="heti-spacing"> </span></span>和<span><span class="heti-spacing"> </span>Server</span>，其实就是网站前后端。所以这门课的内容就是自己随意选架构来编写一个带有前后端的网站，网站功能需求是给定的（据观察是几年会进行更换），前后端完全独立完成，没有小组组队。</p>
+<p>课上会讲授<span class="heti-skip"><span class="heti-spacing"> </span>HTML/CSS/JavaScript<span class="heti-spacing"> </span></span>前端三件套基础，以及<span class="heti-skip"><span class="heti-spacing"> </span>JavaEE<span class="heti-spacing"> </span></span>作为后端。还会介绍一些比如<span class="heti-skip"><span class="heti-spacing"> </span>Vue<span class="heti-spacing"> </span></span>等前端框架，或者<span class="heti-skip"><span class="heti-spacing"> </span>ASP.NET<span class="heti-spacing"> </span></span>的内容。不过其实这些前后端的东西自己学感觉远比听老师讲要效率更高。</p>
+<h3 id="_2">先修要求<a class="headerlink" href="#_2" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
+<p>没有硬性先修要求，开发网站可以说是可以从零基础学起，不过有其他编程语言、计网、数据库等知识会很大程度提高学习效率。</p>
+<h2 id="_3">任课教师<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>只有胡晓军老师开课。</p>
+<p>这门课是一个大班，一共有两百多人，只有一个老师讲课。而且胡老师从来不点名，也没有任何小测，可以说是非常自由。不过关于大程的要求等还是会在课堂上强调，至少这些部分是要注意一下的。</p>
+<h2 id="_4">课程教材<a class="headerlink" href="#_4" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>无教材，老师会推荐一些针对课堂讲授的内容的书籍，不过如果你的架构和这些无关那帮助就不是太大。自己学习前后端的话主要还是要看各个框架的文档，以及一些示例。</p>
+<h2 id="_5">分数构成<a class="headerlink" href="#_5" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>大程占全部的总评成绩，其中分为：</p>
+<ul>
+<li>设计文档（20%）<ul>
+<li>一般在期中左右提交，需要包含网站技术选型的设计、后端<span><span class="heti-spacing"> </span>API</span>、数据库、前端页面的基本设计等内容</li>
+</ul>
+</li>
+<li>最终项目（80%）<ul>
+<li>期末提交，内容包括：<ul>
+<li>程序代码，以及<span class="heti-skip"><span class="heti-spacing"> </span>docker<span class="heti-spacing"> </span></span>容器</li>
+<li>网站基本功能的实操演示视频</li>
+<li>期中的设计文档</li>
+<li>其他文档（使用手册、测试报告、开发体会与小结等）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="_6">课程学习建议<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>可以说是只要做完了这个网站、实现了要求的功能，就可以拿高分的课程。<span>21<span class="heti-spacing"> </span></span>级（<span>23<span class="heti-spacing"> </span></span>秋冬）的课题是物联网设备管理平台，主要要实现用户的注册与登录、用户设备的添加与管理、基于<span class="heti-skip"><span class="heti-spacing"> </span>MQTT<span class="heti-spacing"> </span></span>的物联网设备的数据收集与可视化呈现，要求还是比较简单的，没有什么复杂的功能。</p>
+<p>由于这门课没有点名小测，最后也不需要验收，所以除了注意一下大程的要求以外基本不用到课，真的就只需要一学期提交一个大程就可以了。如果有前后端基础的话可以说可以直接“秒杀”这门课的全部需求。没有前后端开发基础的话这也是一个敦促学习的机会。只要能够合理分配时间，这门课的课程任务其实非常轻松，不过因为<span class="heti-skip"><span class="heti-spacing"> </span>ddl<span class="heti-spacing"> </span></span>持续一整个学期非常宽松，很容易一摆到底最后期末才开始突击学习，所以还是要提前紧张起来。</p>
 <hr/>
 <style>
 #footer-wrapper {
@@ -1136,8 +1057,27 @@
 }
 </style>
 <div id="footer-wrapper">
-<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2023-07-21  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/TonyCrane" target="_blank" title="TonyCrane"><img alt="TonyCrane" src="https://avatars.githubusercontent.com/u/44120331"/></a><a href="https://github.com/HobbitQia" target="_blank" title="HobbitQia"><img alt="HobbitQia" src="https://avatars.githubusercontent.com/u/89443407"/></a></span></p>
+<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2024-02-05  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/TonyCrane" target="_blank" title="TonyCrane"><img alt="TonyCrane" src="https://avatars.githubusercontent.com/u/44120331"/></a></span></p>
 </div>
+<style>
+.md-content .admonition:first-of-type {
+    display: none;
+    margin-top: 0;
+}
+</style>
+<script>
+(() => {
+    let banner = document.querySelector(".md-content .admonition:first-of-type");
+    let child = banner.children[0];
+    let time_updated = new Date(child.innerText * 1000);
+    let time_current = new Date();
+    let diff_month = (time_current - time_updated) / 1000 / 60 / 60 / 24 / 30;
+    if (diff_month > 12.000000) {
+        banner.style.display = "flow-root";
+        child.innerHTML = "本页面最后更新于 " + Math.round(diff_month) + " 个月前，内容可能已经过时，请注意鉴别";
+    }
+})();
+</script>
 <script async="" crossorigin="anonymous" data-category="General" data-category-id="DIC_kwDOIw_0vs4CTjmC" data-emit-metadata="0" data-input-position="bottom" data-lang="zh-CN" data-mapping="pathname" data-reactions-enabled="1" data-repo="ZJU-Turing/TuringCourses" data-repo-id="R_kgDOIw_0vg" data-strict="1" data-theme="light" src="https://giscus.app/client.js">
 </script>
 <script>
@@ -1156,7 +1096,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="页脚" class="md-footer__inner md-grid">
-<a aria-label="上一页: 图灵班学习指南" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<a aria-label="上一页: 金融学类课程集" class="md-footer__link md-footer__link--prev" href="../finance/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -1165,17 +1105,17 @@
 <span class="md-footer__direction">
                   上一页
                 </span>
-                图灵班学习指南
+                金融学类课程集
               </div>
 </div>
 </a>
-<a aria-label="下一页: 课程页面模板" class="md-footer__link md-footer__link--next" href="../template/" rel="next">
+<a aria-label="下一页: 书评专区" class="md-footer__link md-footer__link--next" href="../../readings/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   下一页
                 </span>
-                课程页面模板
+                书评专区
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -1203,8 +1143,8 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.action.edit", "navigation.tracking", "navigation.top", "navigation.tabs", "navigation.footer", "navigation.indexes", "navigation.sections"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
-<script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
-<script src="../js/katex.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.action.edit", "navigation.tracking", "navigation.top", "navigation.tabs", "navigation.footer", "navigation.indexes", "navigation.sections"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../assets/javascripts/bundle.ba449ae6.min.js"></script>
+<script src="../../js/katex.js"></script>
 </body>
 </html>

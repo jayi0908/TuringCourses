@@ -381,6 +381,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/others/browser_server_software/</loc>
+         <lastmod>2024-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/others/data_modeling_and_analysis/</loc>
          <lastmod>2024-02-05</lastmod>
          <changefreq>daily</changefreq>
