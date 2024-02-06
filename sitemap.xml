@@ -481,6 +481,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/short_term/data_visualization/</loc>
+         <lastmod>2024-02-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/short_term/engineering_practice/</loc>
          <lastmod>2024-02-06</lastmod>
          <changefreq>daily</changefreq>
