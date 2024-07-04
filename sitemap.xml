@@ -151,6 +151,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/multimedia_security/</loc>
+         <lastmod>2024-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/quantum_computing/</loc>
          <lastmod>2024-07-04</lastmod>
          <changefreq>daily</changefreq>
