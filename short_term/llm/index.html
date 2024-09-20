@@ -4,12 +4,12 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="图灵班学习指南" name="description"/>
-<link href="https://ZJU-Turing.github.io/TuringCourses/short_term/engineering_practice/" rel="canonical"/>
-<link href="../ics/" rel="prev"/>
-<link href="../" rel="next"/>
+<link href="https://ZJU-Turing.github.io/TuringCourses/short_term/llm/" rel="canonical"/>
+<link href="../rust/" rel="prev"/>
+<link href="../../others/" rel="next"/>
 <link href="../../images/icon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.4" name="generator"/>
-<title>工程实践 - 图灵班学习指南</title>
+<title>大模型应用与实践 - 图灵班学习指南</title>
 <link href="../../assets/stylesheets/main.9c788c91.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -54,7 +54,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              工程实践
+              大模型应用与实践
             
           </span>
 </div>
@@ -748,8 +748,8 @@
           短学期课程
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" id="__nav_9_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_2" id="__nav_9_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
 <a href="../">固定课程</a>
 <label for="__nav_9_2">
@@ -767,10 +767,9 @@
         计算机系统概论
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
-        工程实践
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ai_practice/">
+        人工智能实践
       </a>
 </li>
 </ul>
@@ -813,8 +812,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_4" id="__nav_9_4" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_4" id="__nav_9_4" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
 <a href="../">课程综合实践 Ⅱ</a>
 <label for="__nav_9_4">
@@ -837,10 +836,52 @@
         Rust 开发实训
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../llm_practice/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          大模型应用与实践
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         大模型应用与实践
       </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    课程学习内容
+  </a>
+<nav aria-label="课程学习内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    先修要求
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    任课教师
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+    分数构成
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    参考资料
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -943,21 +984,101 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    课程学习内容
+  </a>
+<nav aria-label="课程学习内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    先修要求
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+    任课教师
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+    分数构成
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+    参考资料
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ZJU-Turing/TuringCourses/tree/master/docs/short_term/engineering_practice/index.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/ZJU-Turing/TuringCourses/tree/master/docs/short_term/llm/index.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1 id="_1">工程实践<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
-<div class="badges">
-<span class="badge ai-badge">大三短学期</span>
-<span class="badge ai-badge">仅 AI 专业</span>
+<div class="admonition warning">
+<p class="admonition-title">1726833425</p>
 </div>
-<p><span>#TODO:<span class="heti-spacing"> </span></span>目前还没有内容，待完善。</p>
+<h1 id="_1">大模型应用与实践<a class="headerlink" href="#_1" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h1>
+<div class="badges">
+<span class="badge is-badge">大二短学期</span>
+<span class="badge is-badge">课程综合实践 Ⅱ</span>
+</div>
+<h2 id="_2">课程学习内容<a class="headerlink" href="#_2" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>课程名是大模型应用与实践，但从课程内容上看，是偏向入门性质的课程。主要涉及的内容如下：</p>
+<ul>
+<li>对<span class="heti-skip"><span class="heti-spacing"> </span>LLM<span class="heti-spacing"> </span></span>的基本介绍：包括发展历程、基本类型和原理以及特性和应用场景</li>
+<li>提示词工程（Prompt Engineering）：涉及零样本和少样本提示<span><span class="heti-spacing"> </span>(Zero-shot</span> ＆ Few-shot)、上下文学习<span><span class="heti-spacing"> </span>(ICL)</span>、自注意力和多头注意力机制<span><span class="heti-spacing"> </span>(Self-Attention</span> ＆ <span>Multi-Head Attention)<span class="heti-spacing"> </span></span>等</li>
+<li><span>Transformer<span class="heti-spacing"> </span></span>架构：介绍了位置编码<span><span class="heti-spacing"> </span>(Positional Encoding)</span>、编码器（Encoder）和解码器（Decoder）、指令微调<span class="heti-skip"><span class="heti-spacing"> </span>(Fine-Tuing)<span class="heti-spacing"> </span></span>以及基于人类反馈的强化学习<span><span class="heti-spacing"> </span>(RLHF)</span></li>
+<li><span>Agent<span class="heti-spacing"> </span></span>智能体：介绍了<span class="heti-skip"><span class="heti-spacing"> </span>Agent<span class="heti-spacing"> </span></span>智能体的基本概念、基于<span class="heti-skip"><span class="heti-spacing"> </span>LLM<span class="heti-spacing"> </span></span>的<span class="heti-skip"><span class="heti-spacing"> </span>Agent<span class="heti-spacing"> </span></span>智能体的设计、多<span class="heti-skip"><span class="heti-spacing"> </span>Agent<span class="heti-spacing"> </span></span>系统的设计以及检索增强型大语言模型<span><span class="heti-spacing"> </span>(RA-LLM)</span></li>
+</ul>
+<p>除此之外，课程还会请到清华、北航、百度等学校和公司的专家分享自己的研究经验和实践经验。</p>
+<p>这些讲座分享的内容会分享科研界和工业界关于<span class="heti-skip"><span class="heti-spacing"> </span>LLM<span class="heti-spacing"> </span></span>的前沿技术，涉及的方向很多，包括但不限于：</p>
+<ul>
+<li>视频生成<span><span class="heti-spacing"> </span>Video Generation</span></li>
+<li>行为识别<span><span class="heti-spacing"> </span>Action Recognition</span></li>
+</ul>
+<p>具体分享内容应该会随着每年请到的老师不同而变化。</p>
+<p>总体而言，是一门适合入门和快速上手<span class="heti-skip"><span class="heti-spacing"> </span>LLM<span class="heti-spacing"> </span></span>的课程。</p>
+<h3 id="_3">先修要求<a class="headerlink" href="#_3" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h3>
+<p>理论上没有先修要求，但建议有基础的<span class="heti-skip"><span class="heti-spacing"> </span>Python<span class="heti-spacing"> </span></span>编程能力；如果有<span class="heti-skip"><span class="heti-spacing"> </span>AI<span class="heti-spacing"> </span></span>课程基础，在理解课堂知识上会事半功倍。</p>
+<h2 id="_4">任课教师<a class="headerlink" href="#_4" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>本课程挂的是王文冠<span class="heti-skip"><span class="heti-spacing"> </span>/<span class="heti-spacing"> </span></span>朱霖潮两位老师的名字，但实际上课的只有朱霖潮一位老师。</p>
+<p><a href="https://person.zju.edu.cn/linchao">朱霖潮</a>老师上课讲的很清楚，质量很好且有求必应。很照顾还没跟上进度的学生，并且手上还会随机刷新小零食，分给同学。下课前会做当堂课的内容总结，帮同学重新梳理思路。而且很喜欢同学问问题<span><span class="heti-spacing"> </span>(</span>“问题其实就是一种<span><span class="heti-spacing"> </span>Prompting</span>”)，跟他多多交流。</p>
+<h2 id="_5">分数构成<a class="headerlink" href="#_5" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<p>本课程没有考勤分，不过朱老师会给多次出勤的同学小零食</p>
+<ul>
+<li>Assignment1(20%)：属于<span class="heti-skip"><span class="heti-spacing"> </span>Prompt Engineering<span class="heti-spacing"> </span></span>的作业，需要自己创建一个小的问题集，测试几个本地大模型的能力和性能</li>
+<li>Assignment2(60%)：属于<span class="heti-skip"><span class="heti-spacing"> </span>Agent<span class="heti-spacing"> </span></span>智能体的作业，需要使用本地大模型创建一个<span class="heti-skip"><span class="heti-spacing"> </span>Agent<span class="heti-spacing"> </span></span>智能体，完成一个数据分析和可视化的任务</li>
+<li>Lab1(10%)：在本地，使用小规模的莎士比亚文集数据上训练小型<span class="heti-skip"><span class="heti-spacing"> </span>GPT<span class="heti-spacing"> </span></span>模型，输出莎士比亚风格的文字</li>
+<li>Lab2(10%)：在本地实现<span class="heti-skip"><span class="heti-spacing"> </span>Llama 2 7B<span class="heti-spacing"> </span></span>模型的推理和量化，观察量化操作对模型推理性能的影响</li>
+</ul>
+<p><span>Lab1<span class="heti-spacing"> </span></span>和<span class="heti-skip"><span class="heti-spacing"> </span>Lab2<span class="heti-spacing"> </span></span>都是认定型分数，只要验收通过就是满分。</p>
+<h2 id="_6">参考资料<a class="headerlink" href="#_6" title="Permanent link"><span><span class="heti-spacing"> </span>¶</span></a></h2>
+<ul>
+<li>可以下载本地大模型的社区：<a href="https://huggingface.co/">https://huggingface.co/</a></li>
+<li>可以用于运行本地大模型的工具：<a href="https://ollama.com/download">https://ollama.com/download</a><ul>
+<li>对应的模型库：<a href="https://ollama.com/library">https://ollama.com/library</a> </li>
+</ul>
+</li>
+</ul>
+<p>下面是笔者在<span class="heti-skip"><span class="heti-spacing"> </span>2024<span class="heti-spacing"> </span></span>年短学期的资源：</p>
+<ul>
+<li>该课程的笔记，可以用于参考大致的上课内容：<a href="https://miraitowaves.github.io/notebook/Course/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5/">大模型应用与实践课程笔记</a></li>
+<li>Assignment2：<a href="https://github.com/miraitowaves/prompt-engineering">https://github.com/miraitowaves/prompt-engineering</a></li>
+</ul>
 <hr/>
 <style>
 #footer-wrapper {
@@ -987,8 +1108,27 @@
 }
 </style>
 <div id="footer-wrapper">
-<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2023-02-25  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/TonyCrane" target="_blank" title="TonyCrane"><img alt="TonyCrane" src="https://avatars.githubusercontent.com/u/44120331"/></a></span></p>
+<p><span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg></span> 2024-09-20  <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></span> Contributors <span class="contributors"><a href="https://github.com/626lt" target="_blank" title="626lt"><img alt="626lt" src="https://avatars.githubusercontent.com/u/129494413"/></a></span></p>
 </div>
+<style>
+.md-content .admonition:first-of-type {
+    display: none;
+    margin-top: 0;
+}
+</style>
+<script>
+(() => {
+    let banner = document.querySelector(".md-content .admonition:first-of-type");
+    let child = banner.children[0];
+    let time_updated = new Date(child.innerText * 1000);
+    let time_current = new Date();
+    let diff_month = (time_current - time_updated) / 1000 / 60 / 60 / 24 / 30;
+    if (diff_month > 12.000000) {
+        banner.style.display = "flow-root";
+        child.innerHTML = "本页面最后更新于 " + Math.round(diff_month) + " 个月前，内容可能已经过时，请注意鉴别";
+    }
+})();
+</script>
 <script async="" crossorigin="anonymous" data-category="General" data-category-id="DIC_kwDOIw_0vs4CTjmC" data-emit-metadata="0" data-input-position="bottom" data-lang="zh-CN" data-mapping="pathname" data-reactions-enabled="1" data-repo="ZJU-Turing/TuringCourses" data-repo-id="R_kgDOIw_0vg" data-strict="1" data-theme="light" src="https://giscus.app/client.js">
 </script>
 <script>
@@ -1007,7 +1147,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="页脚" class="md-footer__inner md-grid">
-<a aria-label="上一页: 计算机系统概论" class="md-footer__link md-footer__link--prev" href="../ics/" rel="prev">
+<a aria-label="上一页: Rust 开发实训" class="md-footer__link md-footer__link--prev" href="../rust/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -1016,17 +1156,17 @@
 <span class="md-footer__direction">
                   上一页
                 </span>
-                计算机系统概论
+                Rust 开发实训
               </div>
 </div>
 </a>
-<a aria-label="下一页: None" class="md-footer__link md-footer__link--next" href="../" rel="next">
+<a aria-label="下一页: 跨专业课程" class="md-footer__link md-footer__link--next" href="../../others/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   下一页
                 </span>
-                None
+                跨专业课程
               </div>
 </div>
 <div class="md-footer__button md-icon">
