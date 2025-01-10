@@ -141,6 +141,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/computer_graphics/</loc>
+         <lastmod>2025-01-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/computer_vision/</loc>
          <lastmod>2025-01-10</lastmod>
          <changefreq>daily</changefreq>
@@ -546,7 +551,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/short_term/llm/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/short_term/llm_practice/</loc>
          <lastmod>2025-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
