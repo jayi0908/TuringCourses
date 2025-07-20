@@ -41,337 +41,157 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/advanced_data_structure/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/advanced_data_structure/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/ai_basic/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/ai_basic/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/assemble/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/computer_organization/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/big_data_storage/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/computer_system1/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/compilers_principles/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/computer_system2/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_graphics/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/computer_system3/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_networks/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/convex_optimization/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_system1/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/cyberspace_security/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_system2/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/data_structure/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_system3/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/discrete_math/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/computer_vision/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/logic_design/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/cyberspace_security/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/object_oriented_programming/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/data_mining/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/operating_system/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/data_structure/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/programming/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/database/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_basic/theory_of_computation/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/digital_image_processing/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/discrete_math/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/ai_logic/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/elective/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/brain_inspired_ai/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/introduction_to_data_visualization/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/computational_photography/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/introduction_to_data_visualization/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%AF%BC%E8%AE%BA%E5%B0%8F%E6%B5%8B/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/computer_graphics/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/machine_learning/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/computer_vision/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/mandatory/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/digital_image_processing/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/numerical_analysis/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/intelligent_acquisition_of_visual_information/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/object_oriented_programming/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/introduction_to_data_visualization/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/programming/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/introduction_to_data_visualization/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%AF%BC%E8%AE%BA%E5%B0%8F%E6%B5%8B/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/quantum_computing/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/multimedia_security/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/research_advances_in_computer_graphics/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/quantum_computing/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/social_network_security/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/research_advances_in_computer_graphics/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/special_discussion/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/signal_processing_for_cybersecurity/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/technology_communication/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/social_network_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/special_discussion/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_elective/technology_communication/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/ai_chips_systems/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/ai_ethics_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/ai_practice/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/ai_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/assemble/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/cognitive_neuroscience/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/compilers_principles/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/computer_architecture/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/computer_networks/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/computer_vision/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/cryptography/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/data_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/database/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/design_cognition/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/machine_learning/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/natural_language_processing/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/network_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/software_engineering/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/software_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/system_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_mandatory/wireless_iot_security/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/applied_operations_research/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/assembly_interface/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/big_data_storage/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/data_mining/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/distributed_computing/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/embedded_system/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/history_of_cs_ideas/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/numerical_analysis/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/parallel_computing/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/principle_of_programming_languages/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/major_module/system_comprehensive_practice/</loc>
+         <loc>https://ZJU-Turing.github.io/TuringCourses/major/theory_of_computation/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -412,11 +232,6 @@
     </url>
     <url>
          <loc>https://ZJU-Turing.github.io/TuringCourses/math_phys/physics_experiment1/</loc>
-         <lastmod>2025-07-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ZJU-Turing.github.io/TuringCourses/math_phys/physics_experiment2/</loc>
          <lastmod>2025-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
